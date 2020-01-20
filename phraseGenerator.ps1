@@ -35,7 +35,7 @@ param(
 # Determine if result should be put to clipboard
 [parameter(Mandatory=$false)]
 [Switch]
-$OutClipboard
+$OutClipboard=$true
 )
 $path = $wordlist
 # verbose output
