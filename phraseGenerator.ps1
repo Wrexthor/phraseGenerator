@@ -110,5 +110,7 @@ if ($OutClipboard) {
     $pw | clip.exe
     Write-Host "Passphrase has been copied to clipboard."
 }
+# prevent exit
+Read-Host
 # remove variable once function has run
 Remove-Variable -Name pw
